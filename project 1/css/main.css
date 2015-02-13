@@ -45,13 +45,14 @@ h2 {
 }
 
 #talk {
+  line-height: 3px;
   font-weight: bold;
 }
 
 #navigate {
-display: inline;
-list-style-type: square;
-font-size: 1.2em;
+  display: inline;
+  list-style-type: square;
+  font-size: 1.2em;
 }
  
 
@@ -65,7 +66,8 @@ font-size: 1.2em;
 
 /*****Food Descriptions****************/
 figcaption {
-font-size: 1.5em;
+  opacity: .7;
+  font-size: 1.5em;
 }
 
 /*****Food Images****************/
@@ -80,12 +82,6 @@ li {
   display: inline-block;
   padding: 10px;
 }
-
-ul {
-  
-  list-style-type: square;
-}
-
 
 /*****Links****************/
 a {
