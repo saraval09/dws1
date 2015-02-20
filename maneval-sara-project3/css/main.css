@@ -1,0 +1,159 @@
+/*****The PAGE****************/
+body {
+  font-family: 'Crimson Text', serif;
+  text-align: center;
+  width: 1200px;
+  padding: 25px;
+  border: 10px solid;
+  border-radius: 25px;
+  margin: 10px auto;
+  background-color: #F0EFE1;
+  box-shadow: 5px 5px 15px 10px #000;
+  background-image: url("../images/background.gif");
+ 
+}
+
+/*****Headings****************/
+h1 {
+  font-size: 5em;
+  font-weight: normal;
+  text-shadow: 2px 2px 2px #666;
+  color: #9A0000;
+}
+
+h2 {
+  padding: 50px;
+  font-size: 3em;
+  font-weight: normal;
+}
+
+/*****IDs****************/
+
+#welcome {
+  line-height: 30px;
+  font-size: 1.5em;
+  font-style: oblique;
+}
+
+#human {
+background-image: url("../images/menu.png");
+background-repeat: no-repeat;
+height: 5px;
+width: 5px;
+padding: 8px;
+}
+
+#dogfood {
+background-image: url("../images/dogfood.png");
+background-repeat: no-repeat;
+height: 5px;
+width: 5px;
+padding: 8px;
+}
+
+#search {
+background-image: url("../images/search.png");
+background-repeat: no-repeat;
+height: 5px;
+width: 5px;
+padding: 8px;
+}
+
+#communicating {
+background-color: #000;
+display: inline;
+}
+
+#find {
+  padding:2px;
+}
+
+#talk {
+  line-height: 3px;
+  font-weight: bold;
+}
+
+#menu {
+  background: linear-gradient(#F1FFD1, #E5F9B6);
+  padding: 45px;
+  margin: 25px;
+  border-radius: 25px;
+  box-shadow: 5px 5px 15px 10px #000;
+
+}
+
+#navigate {
+  display: inline;
+  list-style-type: square;
+  font-size: 1.2em;
+}
+ 
+
+#sparky {
+  background: linear-gradient(#F1FFD1, #E5F9B6);
+  padding: 45px;
+  margin: 25px;
+  border-radius: 25px;
+  box-shadow: 5px 5px 15px 10px #000;
+}
+
+
+/*****Food Descriptions****************/
+figcaption {
+  opacity: .7;
+  font-size: 1.5em;
+}
+
+/*****Food Images****************/
+img {
+   padding:1px;
+   border:1px solid #000;
+   background-color:#6B0000;
+}
+
+/*****Lists****************/
+li {
+  display: inline;
+  padding: 10px;
+}
+
+/*****Links****************/
+a {
+  text-decoration: none;
+}
+
+
+a:link {
+  color: #004C03;
+}
+
+
+a:visited {
+  color: #000;
+}
+
+
+a:hover {
+  text-decoration: underline;
+  color: #E3B000;
+}
+
+a:active {
+  color: #B80000;
+}
+
+/*****Columns****************/
+
+
+#column1of2 {
+float: left;
+width: 42%;
+margin: 20px;
+}
+
+#column2of2 {
+float: left;
+width: 42%;
+margin: 20px;
+}
+
