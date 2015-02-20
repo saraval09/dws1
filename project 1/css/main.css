@@ -59,6 +59,11 @@ width: 5px;
 padding: 8px;
 }
 
+#communicating {
+background-color: #000;
+display: inline;
+}
+
 #find {
   padding:2px;
 }
@@ -66,6 +71,15 @@ padding: 8px;
 #talk {
   line-height: 3px;
   font-weight: bold;
+}
+
+#menu {
+  background: linear-gradient(#F1FFD1, #E5F9B6);
+  padding: 45px;
+  margin: 25px;
+  border-radius: 25px;
+  box-shadow: 5px 5px 15px 10px #000;
+
 }
 
 #navigate {
@@ -131,13 +145,15 @@ a:active {
 /*****Columns****************/
 
 
+#column1of2 {
+float: left;
+width: 42%;
+margin: 20px;
 }
 
-#menu {
-  background: linear-gradient(#F1FFD1, #000);
-  padding: 45px;
-  margin: 25px;
-  border-radius: 25px;
-  box-shadow: 5px 5px 15px 10px #000;
-
+#column2of2 {
+float: left;
+width: 42%;
+margin: 20px;
 }
+
