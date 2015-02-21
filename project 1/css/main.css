@@ -24,13 +24,8 @@ h2 {
   font-weight: normal;
 }
 
-h3 {
-  display: inline;
-}
 
 /*****IDs****************/
-
-
 
 #welcome {
   line-height: 30px;
@@ -92,6 +87,10 @@ background-image: url("../images/chat.png");
 background-repeat: no-repeat;
 background-size: 25px 25px;
 padding: 0 25px 0 30px; 
+}
+
+#communicating {
+display: inline-block;
 }
 
 #find {

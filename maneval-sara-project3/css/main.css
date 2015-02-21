@@ -2,15 +2,12 @@
 body {
   font-family: 'Crimson Text', serif;
   text-align: center;
-  width: 1200px;
   padding: 25px;
   border: 10px solid;
   border-radius: 25px;
   margin: 10px auto;
-  background-color: #F0EFE1;
   box-shadow: 5px 5px 15px 10px #000;
   background-image: url("../images/background.gif");
- 
 }
 
 /*****Headings****************/
@@ -27,6 +24,7 @@ h2 {
   font-weight: normal;
 }
 
+
 /*****IDs****************/
 
 #welcome {
@@ -36,32 +34,63 @@ h2 {
 }
 
 #human {
+display: inline;
 background-image: url("../images/menu.png");
 background-repeat: no-repeat;
-height: 5px;
-width: 5px;
-padding: 8px;
+background-size: 25px 25px;
+padding: 0 25px 0 30px; 
 }
 
 #dogfood {
+display: inline;
 background-image: url("../images/dogfood.png");
 background-repeat: no-repeat;
-height: 5px;
-width: 5px;
-padding: 8px;
+background-size: 25px 25px;
+padding: 0 25px 0 30px; 
 }
 
 #search {
+display: inline;
 background-image: url("../images/search.png");
 background-repeat: no-repeat;
-height: 5px;
-width: 5px;
-padding: 8px;
+background-size: 25px 25px;
+padding: 0 25px 0 30px; 
+}
+
+#email {
+display: inline;
+background-image: url("../images/email.png");
+background-repeat: no-repeat;
+background-size: 25px 25px;
+padding: 0 25px 0 30px; 
+}
+
+#call {
+display: inline;
+background-image: url("../images/talk.png");
+background-repeat: no-repeat;
+background-size: 25px 25px;
+padding: 0 25px 0 30px; 
+}
+
+#visit {
+display: inline;
+background-image: url("../images/visit.png");
+background-repeat: no-repeat;
+background-size: 25px 25px;
+padding: 0 25px 0 30px; 
+}
+
+#message {
+display: inline;
+background-image: url("../images/chat.png");
+background-repeat: no-repeat;
+background-size: 25px 25px;
+padding: 0 25px 0 30px; 
 }
 
 #communicating {
-background-color: #000;
-display: inline;
+display: inline-block;
 }
 
 #find {
@@ -79,12 +108,12 @@ display: inline;
   margin: 25px;
   border-radius: 25px;
   box-shadow: 5px 5px 15px 10px #000;
-
+  height: 1170px;
+  
 }
 
 #navigate {
   display: inline;
-  list-style-type: square;
   font-size: 1.2em;
 }
  
@@ -95,6 +124,7 @@ display: inline;
   margin: 25px;
   border-radius: 25px;
   box-shadow: 5px 5px 15px 10px #000;
+  
 }
 
 
@@ -111,11 +141,6 @@ img {
    background-color:#6B0000;
 }
 
-/*****Lists****************/
-li {
-  display: inline;
-  padding: 10px;
-}
 
 /*****Links****************/
 a {
@@ -145,15 +170,20 @@ a:active {
 /*****Columns****************/
 
 
-#column1of2 {
+.column1of2 {
 float: left;
 width: 42%;
-margin: 20px;
+margin: .0167%;
+clear: left;
+display: inline-block;
+clear:both;
 }
 
-#column2of2 {
-float: left;
+.column2of2 {
+text-align: left;
+float: right;
 width: 42%;
-margin: 20px;
+margin: .0167%;
+display: inline-block;
 }
 
