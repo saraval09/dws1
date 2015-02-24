@@ -1,5 +1,5 @@
 /*****The PAGE****************/
-/*body {
+body {
   font-family: 'Crimson Text', serif;
   text-align: center;
   padding: 25px;
@@ -7,7 +7,7 @@
   border-radius: 25px;
   margin: 10px auto;
   box-shadow: 5px 5px 15px 10px #000;
-  background-image: url("../images/background.gif");*/
+  background-image: url("../images/background.gif");
 }
 
 /*****Headings****************/
@@ -113,7 +113,6 @@ display: inline-block;
 }
 
 #navigate {
-  display: inline;
   font-size: 1.2em;
 }
  
@@ -169,40 +168,18 @@ a:active {
 
 /*****Columns****************/
 
-
 #column1of2 {
-float: left;
 width: 42%;
 margin: .0167%;
-clear:left;
-}
-
-#column2of2 {
-text-align: left;
-float: right;
-width: 42%;
-margin: .0167%;
-clear: right;
-}
-
-
-#col1 {
-width: 400px;
-height: 400px;
-margin: 20px;
-border: 10px solid;
-background-color: #777;
 float:left;
 clear:left;
 
 }
 
-#col2 {
-width: 400px;
-height: 400px;
-margin: 20px;
-border: 10px solid;
-background-color: #777;
+#column2of2 {
+text-align: left;
+width: 42%;
+margin: .0167%;
 float:left;
 clear:right;
 }
