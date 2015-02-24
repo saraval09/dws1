@@ -5,119 +5,116 @@
     <meta charset="utf-8" />
     <title>Sparky's Restaurant</title>
     <link href="css/main.css" rel="stylesheet" />
-
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Crimson+Text">
 </head>
-
 <body>
-    <h1 id="top">Sparky's Restaurant</h1>
+    <div id="maincontainer">
+        <h1 id="top">Sparky's Restaurant</h1>
+        <!--Sparky Picture-->
+        <a href="images/sparky2.jpg">
+            <img src="images/sparky.jpg" width="240" height="180" alt="Sparky">
+        </a>
+        <br> Photo Credit: <a href="https://www.flickr.com/photos/94489149@N00/4824645276/">JillChen</a> via <a href="http://compfight.com">
+            Compfight
+        </a> <a href="https://creativecommons.org/licenses/by-nc/2.0/">cc</a>
 
-    <!--Sparky Picture-->
-    <a href="images/sparky2.jpg"><img src="images/sparky.jpg" width="240" height="180" alt="Sparky">
-    </a>
-    <br> Photo Credit: <a href="https://www.flickr.com/photos/94489149@N00/4824645276/">JillChen</a> via <a href="http://compfight.com">
-        	Compfight
-    	</a> <a href="https://creativecommons.org/licenses/by-nc/2.0/">cc</a>
+        <p id="welcome">
+            Come join Sparky and his dog friends for lunch and dinner!
+            <br> From great homemade spaghetti to a huge chef salad, Sparky has it all!
+        </p>
+        <div id="down">
+            <a href="#bottom">Bottom</a>
+        </div>
 
-    <p id="welcome">
-        Come join Sparky and his dog friends for lunch and dinner!
-        <br> From great homemade spaghetti to a huge chef salad, Sparky has it all!
-    </p>
-
-
-    <div id="navigate">
-        <div><a href="#bottom">Bottom</a>
-        </div>
-        <div id="human"><a href="#menu">Human Menu</a>
-        </div>
-        <div id="dogfood"><a href="#sparky">Sparky's Menu</a>
-        </div>
-        <div id="search"><a href="#find">Find Sparky!</a>
-        </div>
-	</div>
-
-
-        <h2>Human Menu</h2>
-    <div id="menu">
-
-        <!--Spaghetti picture-->
-        <div id="column1of2">
-            <figure>
-                <a id="pictures" href="images/spaghetti2.jpg">
-                    <img src="images/spaghetti.jpg" alt="Spaghetti" />
-                </a>
-                <br> Photo Credit: <a href="https://www.flickr.com/photos/14993459@N08/3702152424/">HatM</a> via <a href="http://compfight.com">
-                    Compfight
-                </a> <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/">cc</a>
-                <figcaption><b>Our Awesome Mound of Spaghetti!</b> </figcaption>
-            </figure>
-        </div>
-        <!--Hamburger picture-->
-        <div>
-            <figure>
-                <a href="images/hamburger2.jpg">
-                    <img src="images/hamburger.jpg" alt="Hamburger" />
-                </a>
-                <br> Photo Credit: <a href="https://www.flickr.com/photos/66787975@N00/2633566137/">Burger Baroness</a> via <a href="http://compfight.com">
-                    Compfight
-                </a> <a href="https://creativecommons.org/licenses/by-sa/2.0/">cc</a>
-                <figcaption>
-                    <b>Our Double Stacker Bacon Hamburger!</b>
-                </figcaption>
-            </figure>
-        </div>
-        <!--Salad picture-->
-        <div>
-            <figure>
-                <a href="images/salad2.jpg">
-                    <img src="images/salad.jpg" alt="Chef Salad" />
-                </a>
-                <br> Photo Credit: <a href="https://www.flickr.com/photos/22789397@N05/2364795538/">styeb</a> via <a href="http://compfight.com">
-                    Compfight
-                </a> <a href="https://creativecommons.org/licenses/by-sa/2.0/">cc</a>
-                <figcaption>
-                    <b>Our Delicious Chef Salad!</b>
-                </figcaption>
-            </figure>
-        </div>
-    </div>
-        <div class="column2of2">
-            <div class="nutrition"> Nutrition Facts </div>
-            <ul>
-                <li>Amount Per Serving 1 burger </li>
-                <li>Calories 459 </li>
-                <li>Total Fat 26g </li>
-                <li>Saturated Fat 11g </li>
-                <li>Trans Fat 1.4g </li>
-                <li>Polyunsaturated fat 0.8g </li>
-                <li>Monounsaturated fat 9g </li>
-                <li>Cholesterol 82mg </li>
-                <li>Sodium 925mg </li>
-                <li>Potassium 322mg </li>
-                <li>Total Carbohydrate 31g </li>
-                <li>Dietary Fiber 1g </li>
-                <li>Sugars 6g </li>
-                <li>Protein 26g</li>
-            </ul>
+            <div id="navigate">
+            <div id="human">
+                <a href="#menu">Human Menu</a>
             </div>
-        <div class="nutrition"> Nutrition Facts </div>
-        <ul>
-            <li>Amount Per Serving 1 cup (257g)</li>
-            <li>Calories 224 </li>
-            <li>Total Fat 7g </li>
-            <li>Saturated Fat 2g </li>
-            <li>Trans Fat 0g </li>
-            <li>Cholesterol 5mg </li>
-            <li>Sodium 1054mg </li>
-            <li>Total Carbohydrate 35g </li>
-            <li>Dietary Fiber 7g </li>
-            <li>Sugars 23g </li>
-            <li>Protein 5g</li>
-        </ul>
+            <div id="dogfood">
+                <a href="#sparky">Sparky's Menu</a>
+            </div>
+            <div id="search">
+                <a href="#find">Find Sparky!</a>
+            </div>
         </div>
+        <h2>Human Menu</h2>
+        <div id="floats">
+            <div id="column1of2">
+                <!--Spaghetti picture-->
 
-        <div class="nutrition"> Nutrition Facts </div>
-        <ul>
+                <figure>
+                    <a href="images/spaghetti2.jpg">
+                        <img src="images/spaghetti.jpg" alt="Spaghetti" />
+                    </a>
+                    <br> Photo Credit: <a href="https://www.flickr.com/photos/14993459@N08/3702152424/">HatM</a> via <a href="http://compfight.com">
+                        Compfight
+                    </a> <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/">cc</a>
+                    <figcaption><b>Our Awesome Mound of Spaghetti!</b> </figcaption>
+                </figure>
+
+                <!--Hamburger picture-->
+
+                <figure>
+                    <a href="images/hamburger2.jpg">
+                        <img src="images/hamburger.jpg" alt="Hamburger" />
+                    </a>
+                    <br> Photo Credit: <a href="https://www.flickr.com/photos/66787975@N00/2633566137/">Burger Baroness</a> via <a href="http://compfight.com">
+                        Compfight
+                    </a> <a href="https://creativecommons.org/licenses/by-sa/2.0/">cc</a>
+                    <figcaption>
+                        <b>Our Double Stacker Bacon Hamburger!</b>
+                    </figcaption>
+                </figure>
+
+                <!--Salad picture-->
+
+                <figure>
+                    <a href="images/salad2.jpg">
+                        <img src="images/salad.jpg" alt="Chef Salad" />
+                    </a>
+                    <br> Photo Credit: <a href="https://www.flickr.com/photos/22789397@N05/2364795538/">styeb</a> via <a href="http://compfight.com">
+                        Compfight
+                    </a> <a href="https://creativecommons.org/licenses/by-sa/2.0/">cc</a>
+                    <figcaption>
+                        <b>Our Delicious Chef Salad!</b>
+                    </figcaption>
+                </figure>
+            </div>
+
+            <div id="column2of2">
+                <div class="nutrition"> Nutrition Facts </div>
+                <ul>
+                    <li>Amount Per Serving 1 burger </li>
+                    <li>Calories 459 </li>
+                    <li>Total Fat 26g </li>
+                    <li>Saturated Fat 11g </li>
+                    <li>Trans Fat 1.4g </li>
+                    <li>Polyunsaturated fat 0.8g </li>
+                    <li>Monounsaturated fat 9g </li>
+                    <li>Cholesterol 82mg </li>
+                    <li>Sodium 925mg </li>
+                    <li>Potassium 322mg </li>
+                    <li>Total Carbohydrate 31g </li>
+                    <li>Dietary Fiber 1g </li>
+                    <li>Sugars 6g </li>
+                    <li>Protein 26g</li>
+                </ul>
+                <div class="nutrition"> Nutrition Facts </div>
+                <ul>
+                    <li>Amount Per Serving 1 cup (257g)</li>
+                    <li>Calories 224 </li>
+                    <li>Total Fat 7g </li>
+                    <li>Saturated Fat 2g </li>
+                    <li>Trans Fat 0g </li>
+                    <li>Cholesterol 5mg </li>
+                    <li>Sodium 1054mg </li>
+                    <li>Total Carbohydrate 35g </li>
+                    <li>Dietary Fiber 7g </li>
+                    <li>Sugars 23g </li>
+                    <li>Protein 5g</li>
+                </ul>
+                <div class="nutrition"> Nutrition Facts </div>
+                <ul>
                     <li>Amount Per Serving 1 salad </li>
                     <li>Calories 190 </li>
                     <li>Total Fat 2.5g </li>
@@ -130,79 +127,86 @@
                     <li>Sugars 5g </li>
                     <li>Protein 12g</li>
                 </ul>
-
-          </div>
+            </div>
         </div>
-
         <h2>Sparky's Menu</h2>
 
 
         <div id="sparky">
             <!--Dog treat pictures-->
             <figure>
-                <a href="images/treats2.jpg"><img src="images/treats.jpg" alt="Sparky Treats" />
+                <a href="images/treats2.jpg">
+                    <img src="images/treats.jpg" alt="Sparky Treats" />
                 </a>
                 <br> Photo Credit: <a href="https://www.flickr.com/photos/23791944@N00/2252312794/">tohu</a> via <a href="http://compfight.com">
                     Compfight
                 </a> <a href="https://creativecommons.org/licenses/by-nc-nd/2.0/">cc</a>
-                <figcaption><b>Sparky Treats!</b>
+                <figcaption>
+                    <b>Sparky Treats!</b>
                 </figcaption>
             </figure>
 
             <!--Hard Dog Food Picture-->
             <figure>
-                <a href="images/dogfood2.jpg"><img src="images/dogfood.jpg" alt="Sparky's Hard Stuff" />
+                <a href="images/dogfood2.jpg">
+                    <img src="images/dogfood.jpg" alt="Sparky's Hard Stuff" />
                 </a>
                 <br> Photo Credit: <a href="https://www.flickr.com/photos/7888217@N04/2298706723/">fontplaydotcom</a> via
                 <a href="http://compfight.com">
                     Compfight
                 </a> <a href="https://creativecommons.org/licenses/by/2.0/">cc</a>
-                <figcaption><b>Sparky's Hard Stuff!</b>
+                <figcaption>
+                    <b>Sparky's Hard Stuff!</b>
                 </figcaption>
             </figure>
 
             <!--Fancy Soft Dog Food Picture-->
             <figure>
-                <a href="images/fancyfood2.jpg"><img src="images/fancyfood.jpg" alt="The Sparky Spoiler!" />
+                <a href="images/fancyfood2.jpg">
+                    <img src="images/fancyfood.jpg" alt="The Sparky Spoiler!" />
                 </a>
                 <br> Photo Credit: <a href="https://www.flickr.com/photos/65051420@N00/2268104286/">Thruhike98</a> via <a href="http://compfight.com">
                     Compfight
                 </a> <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/">cc</a>
-                <figcaption><b><strong>The Sparky Spoiler!</strong> <q>This is my dog's favorite!</q> The Mayor said.</b>
+                <figcaption>
+                    <b><strong>The Sparky Spoiler!</strong> <q>This is my dog's favorite!</q> The Mayor said.</b>
                 </figcaption>
             </figure>
         </div>
 
         <h2 id="find">Find Sparky!</h2>
-        	<p id="talk">Want to talk to Sparky? Here are a few ways to do it!</p>
+        <p id="talk">Want to talk to Sparky? Here are a few ways to do it!</p>
         <br>
-
         <div id="communicating">
 
             <h3 id="email">Email Sparky</h3>
-            	<br>
-            	<a href="mailto:sparkysrestaurant@woof.com"> sparkysrestaurant@woof.com</a>
-            	<br>
+            <br>
+            <a href="mailto:sparkysrestaurant@woof.com"> sparkysrestaurant@woof.com</a>
+            <br>
 
             <h3 id="visit">Visit Sparky</h3>
-            	<br>
-            	<address>
-                    86 Fire Hydrant Lane. Tampa, FL 75309
-            	</address>
+            <br>
+            <address>
+                86 Fire Hydrant Lane. Tampa, FL 75309
+            </address>
             <h3 id="message">Instant Message Sparky</h3>
-            	<br>
-            	<a href="mailto:sparkys-15@aim.com"> sparkys-15@aim.com</a>
-            	<br>
+            <br>
+            <a href="mailto:sparkys-15@aim.com"> sparkys-15@aim.com</a>
+            <br>
             <h3 id="call">Give Him A Call</h3>
-            	<br> 1800-563-6161
+            <br> 1800-563-6161
         </div>
-        <p><a href="#top">Top</a>
+        
+        <p>
+            <div id="up">
+                <a href="#top">Top</a>
+            </div>
         </p>
         <p>Background Credit: <a href="http://www.dinpattern.com/2009/06/22/echeveria/">echeveria</a> </p>
 
         <footer>
             <p id="bottom">Copyright &copy; 2015 Sparky's Legacy</p>
         </footer>
+    </div>
 </body>
-
 </html>

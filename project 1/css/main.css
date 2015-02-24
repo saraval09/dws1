@@ -1,3 +1,6 @@
+
+
+
 /*****The PAGE****************/
 body {
   font-family: 'Crimson Text', serif;
@@ -11,23 +14,6 @@ body {
   
 }
 
-/*****Headings****************/
-h1 {
-  font-size: 5em;
-  font-weight: normal;
-  text-shadow: 2px 2px 2px #666;
-  color: #9A0000;
-}
-
-h2 {
-  padding: 50px;
-  font-size: 3em;
-  font-weight: normal;
-}
-
-
-/*****IDs****************/
-
 #maincontainer:after {
 	content: ".";
 	display: block;
@@ -35,16 +21,40 @@ h2 {
 	clear: both;
 	visibility: hidden;
 }
+
+/*****Headings****************/
+h1 {
+   
+  font-size: 5em;
+  font-weight: normal;
+  text-shadow: 2px 2px 2px #666;
+  color: #9A0000;
 }
 
-#floats {
-margin: 0 auto;
+h2 {
+  padding: 120px 0 0 0; 
+  font-size: 3em;
+  font-weight: normal;
 }
 
+
+/*****IDs****************/
 #welcome {
   line-height: 30px;
   font-size: 1.5em;
   font-style: oblique;
+}
+
+#down, #up {
+font-size: 1em;
+font-style: italic;
+padding: 0 0 25px 0;
+}
+
+
+#navigate {
+  padding: 30px 0 0 0;
+  font-size: 1.2em;
 }
 
 #human {
@@ -71,17 +81,41 @@ background-size: 25px 25px;
 padding: 0 25px 0 30px; 
 }
 
+#floats {
+  background: linear-gradient(#F1FFD1, #E5F9B6);
+  padding: 60px;
+  margin: 0 300px;
+  border-radius: 25px;
+  box-shadow: 5px 5px 15px 10px #000;
+  height: 940px;
+}
+
+#sparky {
+  background: linear-gradient(#F1FFD1, #E5F9B6);
+  padding: 60px;
+  margin: 0 300px;
+  border-radius: 25px;
+  box-shadow: 5px 5px 15px 10px #000;
+  height: 940px;
+}
+
+#find {
+  padding:2px;
+}
+
+#talk {
+  line-height: 3px;
+  font-weight: bold;
+}
+
+#communicating {
+display: inline-block;
+}
+
+
 #email {
 display: inline;
 background-image: url("../images/email.png");
-background-repeat: no-repeat;
-background-size: 25px 25px;
-padding: 0 25px 0 30px; 
-}
-
-#call {
-display: inline;
-background-image: url("../images/talk.png");
 background-repeat: no-repeat;
 background-size: 25px 25px;
 padding: 0 25px 0 30px; 
@@ -103,41 +137,12 @@ background-size: 25px 25px;
 padding: 0 25px 0 30px; 
 }
 
-#communicating {
-display: inline-block;
-}
-
-#find {
-  padding:2px;
-}
-
-#talk {
-  line-height: 3px;
-  font-weight: bold;
-}
-
-#menu {
-  background: linear-gradient(#F1FFD1, #E5F9B6);
-  padding: 45px;
-  margin: 25px;
-  border-radius: 25px;
-  box-shadow: 5px 5px 15px 10px #000;
-  height: 1170px;
-  
-}
-
-#navigate {
-  font-size: 1.2em;
-}
- 
-
-#sparky {
-  background: linear-gradient(#F1FFD1, #E5F9B6);
-  padding: 45px;
-  margin: 25px;
-  border-radius: 25px;
-  box-shadow: 5px 5px 15px 10px #000;
-  
+#call {
+display: inline;
+background-image: url("../images/talk.png");
+background-repeat: no-repeat;
+background-size: 25px 25px;
+padding: 0 25px 0 30px; 
 }
 
 
