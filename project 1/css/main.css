@@ -22,6 +22,11 @@ body {
 	visibility: hidden;
 }
 
+nav {
+  padding: 30px 0 0 0;
+  font-size: 1.2em;
+}
+
 /*****Headings****************/
 h1 {
    
@@ -32,7 +37,7 @@ h1 {
 }
 
 h2 {
-  padding: 120px 0 0 0; 
+  padding: 50px 0 0 0; 
   font-size: 3em;
   font-weight: normal;
 }
@@ -49,12 +54,6 @@ h2 {
 font-size: 1em;
 font-style: italic;
 padding: 0 0 25px 0;
-}
-
-
-#navigate {
-  padding: 30px 0 0 0;
-  font-size: 1.2em;
 }
 
 #human {
@@ -81,7 +80,7 @@ background-size: 25px 25px;
 padding: 0 25px 0 30px; 
 }
 
-#floats {
+#floats, #sparky {
   background: linear-gradient(#F1FFD1, #E5F9B6);
   padding: 60px;
   margin: 0 300px;
@@ -90,14 +89,6 @@ padding: 0 25px 0 30px;
   height: 940px;
 }
 
-#sparky {
-  background: linear-gradient(#F1FFD1, #E5F9B6);
-  padding: 60px;
-  margin: 0 300px;
-  border-radius: 25px;
-  box-shadow: 5px 5px 15px 10px #000;
-  height: 940px;
-}
 
 #find {
   padding:2px;
@@ -143,6 +134,7 @@ background-image: url("../images/talk.png");
 background-repeat: no-repeat;
 background-size: 25px 25px;
 padding: 0 25px 0 30px; 
+margin:  20px 0;
 }
 
 
@@ -189,6 +181,11 @@ a:active {
   color: #B80000;
 }
 
+#hovertable tr:hover {
+  text-decoration: underline;
+  color: #e00a2b;
+}
+
 /*****Columns****************/
 
 
@@ -200,9 +197,91 @@ clear:left;
 }
 
 #column2of2 {
+
 text-align: left;
 width: 42%;
 margin: .0167%;
 float:left;
 clear:right;
+}
+
+.list {
+list-style-type: square;
+}
+/*****Table****************/
+table {
+border-collapse: collapse;
+background-color: #ffffff;
+width: 50%;
+margin: 120px auto;
+
+}
+
+#hours {
+font-weight: bold;
+text-align:center;
+font-size: 4em;
+text-transform: uppercase;
+padding: 5px 30px 5px 10px;
+border: 1px solid #000; 
+}
+th {
+font-weight: bold;
+text-transform: uppercase;
+font-size: 1.2em;
+text-align: center;
+padding: 5px 30px 5px 10px;
+border: 1px solid #000;  
+}
+
+td {
+font-weight: normal;
+text-align: center;
+padding: 5px 30px 5px 10px; 
+border: 1px solid #000; 
+}
+
+.tablebg {
+background-color: #d6ea90;
+}
+
+/*****Form****************/
+
+.title {
+float: left;
+width: 300px;
+clear: left;
+
+}
+
+input:hover {	
+background-color: #d0e2f0;
+border: 1px solid #999999;     
+}
+
+input:focus {
+background-color: #d0e2f0;
+border: 1px solid #999999;   
+}
+
+h3 {
+font-size: 2em;
+padding: 0 30px;
+font-weight: normal;
+}
+
+#newsletter {
+  background: linear-gradient(#F1FFD1, #E5F9B6);
+  padding: 5px;
+  margin: 0 auto;
+  border-radius: 25px;
+  box-shadow: 5px 5px 15px 10px #000;
+  width: 510px;
+  font-size: 1.2em;
+  height: 350px;
+
+}
+
+fieldset {
+    border: none;
 }
